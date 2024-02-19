@@ -1,0 +1,32 @@
+$primary-color: #000000;
+@import 'animate.css';
+
+@font-face {
+  font-family:"Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style:normal;
+  src: url('./assets/Fonts/Orbitron-VariableFont_wght.ttf') format('ttf');
+
+
+}
+@font-face{
+font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  src: url('./assets/Fonts/KodeMono-VariableFont_wght.ttf') format('ttf');
+
+}
+@font-face {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  src:url('./assets/Fonts/PlayfairDisplay-VariableFont_wght.ttf') format('ttf');
+
+} 
+input,
+textarea {
+  font-family:'Orbitron'
+}
